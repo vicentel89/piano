@@ -4,7 +4,7 @@
 <head>
   <title>Title</title>
   <meta charset="utf-8">
-  <meta name="Name" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <!-------JQUERY------->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-------BOOTSTRAP-------->
@@ -17,6 +17,7 @@
 
   <!----Fonts---->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
   <!---->
   <link rel="stylesheet" href="src/styles/css/styles.css">
   <script src="src/script.js"></script>
@@ -24,19 +25,19 @@
 
 <body>
 
-  <div class="main-container">
+  <div id="main-container">
     <div class="white-keys-container">
       <ul>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
-        <li class="white-key"></li>
+        <li class="white-key" id="keyC3"></li>
+        <li class="white-key" id="keyD3"></li>
+        <li class="white-key" id="keyE3"></li>
+        <li class="white-key" id="keyF3"></li>
+        <li class="white-key" id="keyG3"></li>
+        <li class="white-key" id="keyA3"></li>
+        <li class="white-key" id="keyB3"></li>
+        <li class="white-key" id="keyC4"></li>
+        <li class="white-key" id="keyD4"></li>
+        <li class="white-key" id="keyE4"></li>
       </ul>
     </div>
 
@@ -56,26 +57,23 @@
 
     <div class="black-keys-container">
       <ul>
-        <li class="black-key"></li>
-        <li class="black-key"></li>
+        <li class="black-key" id="keyDb3"></li>
+        <li class="black-key" id="keyEb3"></li>
         <li class="hidden-key"></li>
-        <li class="black-key"></li>
-        <li class="black-key"></li>
-        <li class="black-key"></li>
+        <li class="black-key" id="keyGb3"></li>
+        <li class="black-key" id="keyAb3"></li>
+        <li class="black-key" id="keyBb3"></li>
         <li class="hidden-key"></li>
-        <li class="black-key"></li>
-        <li class="black-key"></li>
+        <li class="black-key" id="keyDb4"></li>
+        <li class="black-key" id="keyEb4"></li>
       </ul>
     </div>
 
 
-
+    <div class="overlay">
+      <button type="button" name="button" id="button" class="animated slower">Play Piano</button>
+    </div>
   </div>
-
-
-
-
-
 
 
 </body>
